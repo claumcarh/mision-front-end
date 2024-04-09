@@ -1,0 +1,26 @@
+.menu {
+  background-color: #a435f0;
+  padding: 10px;
+}
+
+.menu__container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  list-style: none;
+}
+
+.menu__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 390px) {
+  .menu__container {
+    flex-direction: row;
+  }
+}
